@@ -575,6 +575,26 @@ cite {
   color: rgba(34, 34, 34, 0.75);
 }
 
+.work-card.frame--pink p,
+.work-card.frame--green p {
+  color: rgba(34, 34, 34, 0.75);
+}
+
+.work-card.frame--yellow .proof-line a,
+.work-card.frame--pink .proof-line a,
+.work-card.frame--green .proof-line a {
+  color: inherit;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.work-card.frame--yellow .proof-line a:hover,
+.work-card.frame--pink .proof-line a:hover,
+.work-card.frame--green .proof-line a:hover {
+  color: var(--blue);
+}
+
 .proof-line {
   margin-top: auto;
   padding-top: 1.5rem;
@@ -716,8 +736,8 @@ cite {
 /* —— Anchors —— */
 #top,
 #proof,
-#hour,
-#ways,
+#how,
+#services,
 #work,
 #who,
 #faq,
