@@ -895,6 +895,12 @@ cite {
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 
+.gallery-link:visited,
+.gallery-link:hover,
+.gallery-link:focus-visible {
+  color: inherit;
+}
+
 .gallery-link:hover,
 .gallery-link:focus-visible {
   transform: translate(-2px, -2px);
@@ -905,10 +911,10 @@ cite {
   display: block;
   width: 100%;
   height: auto;
-  aspect-ratio: 16 / 10;
+  aspect-ratio: 1280 / 656;
   object-fit: cover;
-  object-position: top center;
-  background: #ddd;
+  object-position: top left;
+  background: #e8e4dc;
 }
 
 .gallery-caption {
