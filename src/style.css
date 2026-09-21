@@ -907,6 +907,11 @@ cite {
   color: inherit;
 }
 
+.gallery-link--static {
+  cursor: default;
+  pointer-events: none;
+}
+
 .gallery-link:hover,
 .gallery-link:focus-visible {
   transform: translate(-2px, -2px);
