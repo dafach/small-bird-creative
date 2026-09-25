@@ -1001,3 +1001,170 @@ cite {
   margin: 0;
   line-height: 1.45;
 }
+
+/* —— Blake sequence: reframe / offer / featured / close path —— */
+.reframe,
+.offer,
+.close-path {
+  padding: clamp(2.5rem, 6vw, 4.5rem) 0;
+}
+
+.reframe-frame,
+.offer-frame {
+  max-width: 48rem;
+  padding: clamp(1.5rem, 4vw, 2.5rem);
+}
+
+.reframe-frame h2,
+.offer-frame h2 {
+  margin: 0.35rem 0 0.85rem;
+  font-size: clamp(1.45rem, 3.2vw, 2rem);
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+.reframe-frame p:last-child,
+.offer-frame p:last-child {
+  margin: 0;
+  max-width: 40rem;
+  color: var(--light-text);
+}
+
+.gallery-featured {
+  margin: 0 0 2.75rem;
+  max-width: 52rem;
+}
+
+.gallery-featured .gallery-link {
+  box-shadow: 8px 8px 0 #222;
+}
+
+.section-head--tight {
+  margin-top: 0.5rem;
+  margin-bottom: 1.75rem;
+}
+
+.ways-grid--lead {
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 720px) {
+  .ways-grid--lead {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.card--featured {
+  border-color: rgba(40, 0, 232, 0.22);
+  box-shadow: 0 0 0 1px rgba(40, 0, 232, 0.06);
+}
+
+.services-support-label {
+  margin: 0 0 1rem;
+  color: var(--blue);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.ways-grid--support {
+  margin-top: 0;
+}
+
+.card--compact {
+  padding: 1.35rem 1.35rem 1.4rem;
+}
+
+.card--compact h3 {
+  font-size: 1.1rem;
+}
+
+.card--compact p {
+  font-size: 0.95rem;
+}
+
+@media (min-width: 720px) {
+  .ways-grid--support {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1100px) {
+  .ways-grid--support {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.compare-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.15rem;
+  margin-bottom: 1.25rem;
+}
+
+@media (min-width: 720px) {
+  .compare-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.compare-card {
+  padding: 1.5rem 1.5rem 1.65rem;
+}
+
+.compare-card h3 {
+  margin: 0.15rem 0 0.65rem;
+  font-size: 1.25rem;
+}
+
+.compare-card p:last-child {
+  margin: 0;
+  color: var(--light-text);
+  max-width: 36ch;
+}
+
+.board-frame {
+  margin: 0 0 1.5rem;
+  padding: clamp(1.5rem, 4vw, 2.5rem);
+}
+
+.board-frame h2 {
+  margin: 0.35rem 0 1rem;
+  font-size: clamp(1.45rem, 3.2vw, 2rem);
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+.board-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 0.75rem;
+  max-width: 40rem;
+}
+
+.board-list li {
+  position: relative;
+  padding-left: 1.35rem;
+  color: var(--dark);
+  font-size: 1.05rem;
+  line-height: 1.4;
+  font-weight: 500;
+}
+
+.board-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.55em;
+  width: 0.55rem;
+  height: 0.55rem;
+  border-radius: 50%;
+  background: var(--blue);
+}
+
+.close-path .consult-frame {
+  margin-top: 0.25rem;
+}
