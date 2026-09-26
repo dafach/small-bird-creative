@@ -369,6 +369,14 @@ cite {
   padding-bottom: clamp(2.25rem, 5vw, 3.75rem);
 }
 
+.hero-frame h1 {
+  text-wrap: balance;
+}
+
+.hero-frame p {
+  text-wrap: pretty;
+}
+
 .hero-actions {
   display: flex;
   flex-direction: column;
